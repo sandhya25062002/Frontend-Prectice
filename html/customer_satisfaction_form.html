@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey Form</title>
+</head>
+<body>
+    <h1>Customer Satisfaction Survey Form</h1>
+
+    <form>
+        <table>
+            <tr>
+                <td>
+                     <label for="fullname">fullname</label>
+                     <br>
+                     <input type="text" id="fullname" name="fullname" placeholder="Enter Your FullName">
+                     <br><br>
+
+                     <label for="phonenumber">Phone Number</label><br>
+                     <input type="tel" id="phonenumber" name="phonenumber" placeholder="Enter Your Phone Number">
+                     <br><br>
+
+                     <h3>Product/Service Quality</h3>
+                     <label for="quality1"><input type="radio" name="quality" id="quality1">Poor</label><br>
+                     <label for="quality2"><input type="radio" name="quality" id="quality2">Fair</label><br>
+                     <label for="quality3"><input type="radio" name="quality" id="quality3">Good</label><br>
+                     <label for="quality4"><input type="radio" name="quality" id="quality4">Very Good</label><br>
+                     <label for="quality5"><input type="radio" name="quality" id="quality5">Excellent</label>
+
+                     <br>
+
+                     <h3>Customer Service Experience</h3>
+                     <label for="experience1"><input type="radio" name="experience" id="experience1">Poor</label><br>
+                     <label for="experience2"><input type="radio" name="experience" id="experience2">Fair</label><br>
+                     <label for="experience3"><input type="radio" name="experience" id="experience3">Good</label><br>
+                     <label for="experience4"><input type="radio" name="experience" id="experience4">Very Good</label><br>
+                     <label for="experience5"><input type="radio" name="experience" id="experience5">Excellent</label>
+
+                     <br><br>
+
+                     <label for="rating">Likelihood to Recommend (0-10)</label><br>
+                     <input type="range" name="rating" id="rating" min="1" max="10" step="1">
+                     <br><br>
+
+                     <label for="suggestion">What Can We Improve ?</label><br><br>
+                     <textarea name="suggestion" id="suggestion" placeholder="Tell Us how we can improve"></textarea>
+
+                     <br><br>
+
+                     <label for="followup"><input type="checkbox" name="followup" id="followup">May We Contact You for Follow-Up?</label>
+
+                </td>
+
+                <td>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" name="email" id="email" placeholder="Enter your email address"><br><br>
+                
+                    <label for="date">Date of Purchase/Interaction</label><br>
+                    <input type="datetime" name="date" id="date" placeholder="Enter the date of your purchase or interaction">
+
+                    <br><br>
+
+                    <h3>Ease of Use /Interaction</h3>
+                    <br>
+                    <label for="use1"><input type="radio" name="use" id="use1">Poor</label><br>
+                    <label for="use2"><input type="radio" name="use" id="use2">Fair</label><br>
+                    <label for="use3"><input type="radio" name="use" id="use3">Good</label><br>
+                    <label for="use4"><input type="radio" name="use" id="use4">Very Good</label><br>
+                    <label for="use5"><input type="radio" name="use" id="use5">Excellent</label>
+
+                    <br><br>
+
+                    <label for="satisfaction">Overall Satisfaction (1-5)</label><br>
+                    <input type="range" name="satisfaction" id="satisfaction" min="1" max="5">
+                    
+                    <br><br>
+
+                    <label for="feedback">What Did You Like Most?</label><br>
+                    <textarea name="feedback" id="feedback" placeholder="Tell us what stood out to you."></textarea>
+                    <br><br>
+
+                    <label for="comment">Additional Comments or Suggestions</label><br>
+                    <textarea name="comment" id="comment" placeholder="share anything else you'd like us to know"></textarea>
+                    <br><br>
+
+                    <button type="submit">Submit</button>
+
+
+
+
+
+
+
+
+
+
+
+
+                </td>
+               
+            </tr>
+        
+        </table>
+       
+    </form>
+</body>
+</html>
