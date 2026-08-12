@@ -19,18 +19,18 @@ body {
    HEADER / NAVBAR
 ========================= */
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+ header {
+     display: flex;
+     justify-content: space-between; 
+     align-items: center; 
 
-    padding: 20px 60px;
+     padding: 20px 60px; 
 
-    background-color: #3e2723;
+     background-color: #3e2723; 
 
-    position: relative;
-    z-index: 10;
-}
+     position: relative;  
+     z-index: 10; 
+} 
 
 header h2 {
     color: rgba(255, 255, 255, 0.8);
@@ -935,3 +935,30 @@ header h2 {
 .footer-bottom p {
     font-size: 14px;
 }
+
+/*  entrance animation */
+.hero-content h1{
+    animation: fadeSlideUp 1s ease-out both;
+}
+
+.hero-content p{
+    animation: fadeSlideUp 1s ease-out both;
+    animation-delay: 0.3s;
+}
+
+.hero-buttons{
+    animation: fadeSlideUp 1s ease-out both;
+    animation-delay: 0.6s;
+}
+
+@keyframes fadeSlideUp {
+    from{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
